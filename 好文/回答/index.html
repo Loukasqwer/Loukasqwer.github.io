@@ -245,30 +245,6 @@
           
           
           <li>
-            <a href="/about/">
-              
-              ABOUT
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          
-          
-          <li>
-            <a href="/tags/">
-              
-              TAGS
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/archive/">
               
               ARCHIVES
@@ -279,10 +255,34 @@
           
           
           
+          
+          
           <li>
             <a href="/categories/">
               
               CATEGORIES
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              ABOUT
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              TAGS
               
               
             </a>
@@ -470,8 +470,10 @@
 <p>Baseness is a passport for the base,</p>
 <p>Honour an epitaph for the honourable.</p>
 </blockquote>
-<h2 id="回答"><a href="#回答" class="headerlink" title="回答"></a>回答</h2><p>​                                                                                                  作者：北岛</p>
-<h3 id="The-Answer"><a href="#The-Answer" class="headerlink" title="The Answer"></a><strong>The Answer</strong></h3><blockquote>
+<h2 id="回答">回答</h2>
+<p>​                                                                                                  作者：北岛</p>
+<h3 id="The-Answer"><strong>The Answer</strong></h3>
+<blockquote>
 <p>卑鄙是卑鄙者的通行证，</p>
 <p>高尚是高尚者的墓志铭。</p>
 <p>看吧，在那镀金的天空中，</p>
@@ -501,7 +503,8 @@
 <p>那是五千年的象形文字，</p>
 <p>那是未来人们凝视的眼睛。</p>
 </blockquote>
-<h2 id="Have-fun"><a href="#Have-fun" class="headerlink" title="Have fun ^_^"></a>Have fun ^_^</h2><p>Please <a target="_blank" rel="noopener" href="https://github.com/Loukasqwer">Star</a> this Project if you like it! <a target="_blank" rel="noopener" href="https://github.com/Loukasqwer">Follow</a> would also be appreciated! Peace!</p>
+<h2 id="Have-fun">Have fun ^_^</h2>
+<p>Please <a target="_blank" rel="noopener" href="https://github.com/Loukasqwer">Star</a> this Project if you like it! <a target="_blank" rel="noopener" href="https://github.com/Loukasqwer">Follow</a> would also be appreciated! Peace!</p>
 
 
         <hr>
@@ -1203,5 +1206,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
